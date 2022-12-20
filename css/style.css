@@ -291,7 +291,7 @@ img {
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
     padding: 30px 0;
-    width: 565px;
+    max-width: 565px;
     font-weight: 700;
 }
 
@@ -533,6 +533,7 @@ gallery-min__img--2 {
 .footer__top {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer__title {
@@ -744,6 +745,13 @@ gallery-min__img--2 {
     .gallery-max__text {
         font-size: 18px;
         line-height: 20px;
+    }
+
+    .footer__top {
+        flex-wrap: wrap;
+    }
+    .footer__form {
+        margin: 0 auto;
     }
 }
 
